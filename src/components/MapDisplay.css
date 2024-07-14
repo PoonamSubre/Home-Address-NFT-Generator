@@ -1,0 +1,20 @@
+.map-container {
+  flex: 0 1 calc(30% - 20px); 
+  background-color: #f0f0f0; 
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box; 
+}
+
+.map-inner-container {
+  height: 350px; 
+  width: 100%; 
+  position: relative; 
+  border-radius: 8px; 
+  overflow: hidden; 
+}
+
+.map-title {
+  text-align: center;
+  margin-bottom: 10px;
+}

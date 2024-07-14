@@ -1,0 +1,38 @@
+.address-input-container {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.address-input-container .MuiAutocomplete-root {
+  width: 100%;
+ 
+
+}
+
+.address-input-container .MuiAutocomplete-inputRoot[class*='MuiOutlinedInput-root'] {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.address-input-container .MuiAutocomplete-inputRoot[class*='MuiOutlinedInput-root']:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #070707;
+  
+}
+
+.address-input-container .MuiAutocomplete-inputRoot[class*='MuiOutlinedInput-root'] .MuiAutocomplete-input {
+  padding: 10px;
+  font-size: 16px;
+  color: #080707;
+}
+
+.address-input-container .MuiAutocomplete-endAdornment {
+  right: 10px;
+}
+
+.address-input-container .MuiCircularProgress-root {
+  color: #080808;
+}
