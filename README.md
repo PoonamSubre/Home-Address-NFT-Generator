@@ -13,44 +13,55 @@ This web application generates NFT (Non-Fungible Token) details based on a selec
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/home-address-nft-generator.git
-Navigate into the directory:
+    ```bash
+    git clone https://github.com/yourusername/home-address-nft-generator.git
+    ```
 
-bash
-Copy code
-cd home-address-nft-generator
-Install dependencies:
+2. **Navigate into the directory:**
 
-bash
-Copy code
-npm install
-Set up environment variables:
+    ```bash
+    cd home-address-nft-generator
+    ```
 
-Create a .env file in the root directory and add your OpenCage Geocoding API key:
+3. **Install dependencies:**
 
-env
-Copy code
-REACT_APP_OPENCAGE_API_KEY=your_api_key_here
-Start the development server:
+    ```bash
+    npm install
+    ```
 
-bash
-Copy code
-npm start
-Open your browser:
+4. **Set up environment variables:**
 
-Visit http://localhost:3000 to view the app.
+    Create a `.env` file in the root directory and add your OpenCage Geocoding API key:
 
-Usage
-Enter a home address in the input field.
-Select a suggested address from the dropdown list.
-The map will display the location of the selected address.
-NFT details will be generated with a token URI based on the selected address.
-Dependencies
-React: JavaScript library for building user interfaces.
-Material-UI: React UI framework for designing consistent UI components.
-Axios: Promise-based HTTP client for making requests to API endpoints.
-Leaflet: JavaScript library for interactive maps.
-react-leaflet: React components for Leaflet maps.
-Contributing
+    ```env
+    REACT_APP_OPENCAGE_API_KEY=your_api_key_here
+    ```
+
+5. **Start the development server:**
+
+    ```bash
+    npm start
+    ```
+
+6. **Open your browser:**
+
+    Visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Usage
+
+1. Enter a home address in the input field.
+2. Select a suggested address from the dropdown list.
+3. The map will display the location of the selected address.
+4. NFT details will be generated with a token URI based on the selected address.
+
+## Dependencies
+
+- **React**: JavaScript library for building user interfaces.
+- **Material-UI**: React UI framework for designing consistent UI components.
+- **Axios**: Promise-based HTTP client for making requests to API endpoints.
+- **Leaflet**: JavaScript library for interactive maps.
+- **react-leaflet**: React components for Leaflet maps.
+
+## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
